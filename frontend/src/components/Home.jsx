@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
+    <>
+    <Navbar/>
     <div className="w-full h-max flex flex-col justify-center items-center">
       <h1 className="lg:text-4xl md:text-2xl sm:text-xl text-3xl text-yellow-500 font-extrabold text-center">
         Stay organized, tackle tasks, and achieve your goals with ease!
@@ -20,6 +24,8 @@ const Home = () => {
         </Link>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
