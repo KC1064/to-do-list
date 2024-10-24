@@ -27,6 +27,7 @@ const App = () => {
       element: <Signup />,
     },
   ]);
+  
   return (
     <div
       style={{
